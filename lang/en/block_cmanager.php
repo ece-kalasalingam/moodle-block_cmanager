@@ -48,14 +48,14 @@ $string['update'] = 'Update';
 $string['Request'] = 'Request';
 
 //block_cmanager_config.php
-//$string['administratorConfig'] = 'Other settings';
+$string['administratorConfig'] = 'Other settings';
 $string['emailConfig'] = 'E-mail config';
 $string['emailConfigContents'] = 'Configure communication e-mails';
-//$string['cmanagerStats'] = 'CManager statistics';
+$string['cmanagerStats'] = 'CManager statistics';
 $string['emailConfigInfo'] = 'This section contains e-mail addresses of administrators who will be notified whenever any course requests have been recorded.';
 $string['emailConfigSectionHeader'] = 'Configure e-mail';
-//$string['emailConfigSectionContents'] = 'Configure e-mail contents';
-//$string['statsConfigInfo'] = 'This section contains statistics on the current number of requests which have been made since the Course Request Manager module has been in use on this website.';
+$string['emailConfigSectionContents'] = 'Configure e-mail contents';
+$string['statsConfigInfo'] = 'This section contains statistics on the current number of requests which have been made since the Course Request Manager module has been in use on this website.';
 $string['totalRequests'] = 'Total number of requests';
 $string['config_addemail'] = 'E-mail address';
 $string['namingConvetion'] = 'Course naming convention';
@@ -72,13 +72,13 @@ $string['snamingConvetionInstruction'] = 'Please choose a short name format for 
 $string['snamingConvetion_option1'] = 'Short name only';
 $string['snamingConvetion_option2'] = 'Short name - mode';
 $string['configure_EnrolmentKey'] = 'Enrolment key';
-//$string['configure_EnrolmentKeyInstruction'] = 'Course Request Manager can generate an automatic enrolment key or you may choose to prompt the user for an enrolment key of their choice. If you choose to prompt the user, a field for entering the enrolment key will be added to the first page of the request form.';
+$string['configure_EnrolmentKeyInstruction'] = 'Course Request Manager can generate an automatic enrolment key or you may choose to prompt the user for an enrolment key of their choice. If you choose to prompt the user, a field for entering the enrolment key will be added to the first page of the request form.';
 $string['configure_defaultStartDate'] = 'Start date';
 $string['configure_defaultStartDateInstructions'] = 'Please select a default start date for new courses.';
 $string['configure_delete'] = 'Are you sure you want to delete this request?';
 $string['configure_deleteMail'] = 'Are you sure you want to delete this admin e-mail address?';
 $string['configure_leaveblankmail'] = 'Leave this field blank to avoid a mail being sent.';
-//$string['configure_instruction1'] = 'Course Request Manager settings allows you to set administrator emails for communication, set default emails, set course naming conventions and default course settings such as start date and enrolment key policy.';
+$string['configure_instruction1'] = 'Course Request Manager settings allows you to set administrator emails for communication, set default emails, set course naming conventions and default course settings such as start date and enrolment key policy.';
 $string['configure_instruction2'] = 'The request form is split over two pages. Page one will prompt the user for the shortname and long name of the course to be created. This link will allow you to name those fields and also enable an optional course mode setting.';
 $string['configure_instruction3'] = 'This allows you to configure the 2nd page of the request. On this page you can create form elements that must be completed by the user as part of the request process. While this information is not used by Course Request Manager, it will allow administrators to gather structured information on the request and aid in the decision making process.';
 
@@ -88,8 +88,8 @@ $string['configure_instruction3'] = 'This allows you to configure the 2nd page o
 $string['emailConfigHeader'] = 'Here you can make changes to the e-mails which are sent to the users as notification when the status of their module has changed.';
 $string['email_courseCode'] = 'Course code';
 $string['email_courseName'] = 'Course name';
-//$string['email_progCode'] = 'Programme code';
-//$string['email_progName'] = 'Programme name';
+$string['email_progCode'] = 'Programme code';
+$string['email_progName'] = 'Programme name';
 $string['email_enrolmentKey'] = 'Enrolment key';
 $string['email_fullURL'] = 'Full URL of new course';
 $string['email_sumLink'] = 'Full Course Request Manager request summary link';
@@ -118,22 +118,22 @@ $string['emailSubj_From'] = "From";
 $string['emailSubj_Comment'] = "Comment";
 $string['emailSubj_pleasecontact'] = "Please contact";
 $string['emailSubj_mailSent1'] = "An email has been sent to";
-//$string['emailSubj_mailSent2'] = "on your behalf.";
-//$string['emailSubj_requester'] = "Requester e-mail";
+$string['emailSubj_mailSent2'] = "on your behalf.";
+$string['emailSubj_requester'] = "Requester e-mail";
 
 //course request
 $string['request_rule1'] = 'Please enter a value in this field.';
 $string['request_rule2'] = 'Please select a value.';
 $string['request_rule3'] = 'Please enter an enrolment key.';
 $string['request_requestControl'] = 'Request control of this course';
-//$string['request_requestnewBlank'] = 'Request a new blank course and the removal of this course';
-//$string['request_pleaseSelect'] = 'Please select course mode.';
-//$string['request_complete'] = 'Course request completed.';
-//$string['request_addModule'] = 'Add course';
+$string['request_requestnewBlank'] = 'Request a new blank course and the removal of this course';
+$string['request_pleaseSelect'] = 'Please select course mode.';
+$string['request_complete'] = 'Course request completed.';
+$string['request_addModule'] = 'Add course';
 
 $string['requestForm_category'] = 'Category';
 
-//$string['changeshavebeensaved'] = 'Changes saved.';
+$string['changeshavebeensaved'] = 'Changes saved.';
 //form builder
 $string['formBuilder_name'] = 'Configure Request Form - Page 2';
 $string['formBuilder_instructions'] = 'The course request facility has been developed to allow users to enter additional information on course requests. This form can be configured to allow you to gather as much or as little information from the end user. If you require information from your users to assist you in creating a course, then configure the form here. Typical uses have included:';
@@ -146,21 +146,21 @@ $string['formBuilder_instructions6'] = 'Many others...';
 $string['formBuilder_currentActiveForm'] = 'Current active form';
 $string['formBuilder_currentActiveFormInstructions'] = 'Please select the form to use from the dropdown below. You can change the current active form at any time or create a new one and select it. ';
 $string['formBuilder_selectDescription'] = 'Select form to use for requests';
-//$string['formBuilder_selectOption'] = 'Select form..';
+$string['formBuilder_selectOption'] = 'Select form..';
 $string['formBuilder_manageFormsText'] = 'Manage forms';
 $string['formBuilder_createNewText'] = 'Create a new form';
 $string['formBuilder_selectAny'] = 'Select any of the forms below to begin editing.';
 $string['formBuilder_p2_error'] = 'Error: No ID added.';
-//$string['formBuilder_p2_header'] = 'Additional information form editor';
+$string['formBuilder_p2_header'] = 'Additional information form editor';
 $string['formBuilder_p2_addNewField'] = 'Add new field';
 $string['formBuilder_p2_dropdown1'] = 'Add new...';
 $string['formBuilder_p2_dropdown2'] = 'Text field';
 $string['formBuilder_p2_dropdown3'] = 'Text area';
 $string['formBuilder_p2_dropdown4'] = 'Radio button group';
 $string['formBuilder_p2_dropdown5'] = 'Drop down menu';
-//$string['formBuilder_p2_dropdown6']  = 'Text';
+$string['formBuilder_p2_dropdown6']  = 'Text';
 $string['formBuilder_p2_instructions'] = 'This form can be configured to allow you to gather as much or as little information needed from the end user. If you require information from your users to assist you in creating a course, then configure the form here. Simply add or remove fields which the user will complete during a course request. This information can then assist you when dealing with requests.';
-//$string['formBuilder_about'] = 'About';
+$string['formBuilder_about'] = 'About';
 $string['formBuilder_editForm'] = 'Edit form';
 $string['formBuilder_deleteForm'] = 'Delete form';
 $string['formBuilder_previewForm'] = 'Preview form';
@@ -170,13 +170,13 @@ $string['formBuilder_dropdownTxt'] = 'Drop down menu';
 $string['formBuilder_radioTxt'] = 'Radio buttons';
 $string['formBuilder_textAreaTxt'] = 'Text area';
 $string['formBuilder_textFieldTxt'] = 'Text field';
-//$string['formBuilder_addUserTxt']  = 'Text';
+$string['formBuilder_addUserTxt']  = 'Text';
 $string['formBuilder_leftTxt'] = 'Name';
 $string['formBuilder_saveTxt'] = 'Save';
 $string['formBuilder_addedItemsTxt'] = 'The following items are listed in this component';
 $string['formBuilder_addItemBtnTxt'] = 'Add new item';
 $string['formBuilder_editingForm']  = 'Editing form';
-//$string['formBuilder_shownbelow']  = 'is shown below';
+$string['formBuilder_shownbelow']  = 'is shown below';
 $string['formBuilder_nooptionsadded']  = 'No fields have been added.';
 
 //preview form page
@@ -200,16 +200,16 @@ $string['entryFields_AddNewItem'] = 'Add new item';
 $string['entryFields_values'] = 'Values: ';
 
 //module_manager
-//$string['cmanager'] = 'CRManager';
+$string['cmanager'] = 'CRManager';
 $string['cmanagerDisplay'] = 'Course Request Manager';
-//$string['cmanagerDisplaySearchForm'] = 'Configure Request Form - Page 1';
+$string['cmanagerDisplaySearchForm'] = 'Configure Request Form - Page 1';
 $string['cmanagerWelcome'] = 'Welcome to Course Request Manager. Before requesting a new course, please check your local guidelines.';
 $string['cmanagerRequestBtn'] = 'Request a new course setup';
-//$string['cmanagerExstingTab'] = 'Existing requests';
-//$string['cmanagerHistoryTab'] = 'Request history';
-//$string['cmanagerActions'] = 'Actions';
+$string['cmanagerExstingTab'] = 'Existing requests';
+$string['cmanagerHistoryTab'] = 'Request history';
+$string['cmanagerActions'] = 'Actions';
 $string['cmanagerConfirmCancel'] = 'Are you sure you want to cancel this request?';
-//$string['cmanagernonePending'] = 'Sorry, nothing pending!';
+$string['cmanagernonePending'] = 'Sorry, nothing pending!';
 $string['cmanagerEnrolmentInstruction'] = 'Course Request Manager can generate an automatic enrolment key or you may choose to prompt the user for an enrolment key of their choice.';
 $string['cmanagerEnrolmentOption1'] = 'Automatically generated key';
 $string['cmanagerEnrolmentOption2'] = 'Prompt user for key';
@@ -236,16 +236,16 @@ $string['yes'] = 'Yes';
 $string['requestReview_Summary'] = 'Request summary';
 $string['requestReview_intro1'] = 'Please review the following information carefully before submitting your request.';
 $string['requestReview_intro2'] = 'Your request will be dealt with as soon as possible.';
-//$string['requestReview_status'] = 'STATUS';
-//$string['requestReview_COMPLETE'] = 'COMPLETE';
-//$string['requestReview_PENDING'] = 'PENDING';
-//$string['requestReview_REQUEST_DENIED'] = 'REQUEST DENIED';
-//$string['requestReview_NULL'] = 'NULL';
+$string['requestReview_status'] = 'STATUS';
+$string['requestReview_COMPLETE'] = 'COMPLETE';
+$string['requestReview_PENDING'] = 'PENDING';
+$string['requestReview_REQUEST_DENIED'] = 'REQUEST DENIED';
+$string['requestReview_NULL'] = 'NULL';
 
-//$string['requestReview_requestType'] = 'Request type';
-//$string['requestReview_moduleCode'] = 'Course code';
-//$string['requestReview_moduleName'] = 'Course name';
-//$string['requestReview_originator'] = 'Originator';
+$string['requestReview_requestType'] = 'Request type';
+$string['requestReview_moduleCode'] = 'Course code';
+$string['requestReview_moduleName'] = 'Course name';
+$string['requestReview_originator'] = 'Originator';
 
 $string['requestReview_ccdne'] = 'Course currently does not exist';
 $string['reviewLocation'] = 'Location';
@@ -253,21 +253,21 @@ $string['reviewLocation'] = 'Location';
 $string['requestReview_SubmitRequest'] = 'Submit request';
 $string['requestReview_AlterRequest'] = 'Alter request';
 $string['requestReview_CancelRequest'] = 'Cancel request';
-//$string['requestReview_creationDate'] = 'Creation date';
-//$string['requestReview_requestType'] = 'Request type';
+$string['requestReview_creationDate'] = 'Creation date';
+$string['requestReview_requestType'] = 'Request type';
 
 $string['requestReview_OpenDetails'] = 'Open details';
 $string['requestReview_ApproveRequest'] = 'Approve request';
 
 
-//$string['requestReview_courseName'] = 'Course name';
-//$string['requestReview_courseCode'] = 'Course code';
+$string['requestReview_courseName'] = 'Course name';
+$string['requestReview_courseCode'] = 'Course code';
 
 //comments
 $string['comments_date'] = 'Date / Time';
 $string['comments_message'] = 'Message';
 $string['comments_from'] = 'From';
-//$string['comments_Header'] = 'Add / View comments';
+$string['comments_Header'] = 'Add / View comments';
 $string['comments_Forward'] = 'All comments will automatically be forwarded by email also';
 $string['comments_PostComment'] = 'Post comment';
 $string['comments_comment'] = 'Comment';
@@ -295,8 +295,8 @@ $string['requesttype'] = 'Request type';
 $string['originator'] = 'Originator';
 $string['comments'] = 'Comments';
 $string['bulkactions'] = 'Bulk actions';
-//$string['withselectedrequests'] = 'with selected requests';
-//$string['existingrequests'] = 'Existing requests';
+$string['withselectedrequests'] = 'with selected requests';
+$string['existingrequests'] = 'Existing requests';
 
 //Navbar
 $string['actions'] = 'Actions';
@@ -307,10 +307,10 @@ $string['allarchivedrequests'] = 'All archived requests';
 $string['configurecoursemanagersettings'] = ' Configure Course Request Manager settings';
 
 
-//$string['configure'] = 'Configure Course Request Manager';
+$string['configure'] = 'Configure Course Request Manager';
 $string['courserequestline1'] = 'Please refer to in-house guidelines for naming courses.';
-//$string['courserequestadmin'] = 'Course request administration';
-//$string['configureHeader'] = 'Course request facility - CManager configuration';
+$string['courserequestadmin'] = 'Course request administration';
+$string['configureHeader'] = 'Course request facility - CManager configuration';
 $string['approve'] = 'Approve';
 $string['deny'] = 'Deny';
 $string['edit'] = 'Edit';
@@ -329,7 +329,8 @@ $string['modname'] = 'Course name';
 $string['catlocation'] = 'Catalogue location';
 $string['lecturingstaff'] = 'Lecturing staff';
 $string['actions'] = 'Actions';
-$string['noneofthese'] = 'None of these? Continue making a new course';
+$string['noneofthese'] = 'So, start again making a new request ';
+//$string['noneofthese'] = 'None of these? Continue making a new course';
 $string['sendrequestforcontrol'] = 'Send request for control';
 $string['sendrequestemail'] = 'Send request e-mail';
 $string['emailswillbesent'] = 'E-mails will be sent to the owner of the course. Once you send a request, Please wait for a response.';
@@ -356,7 +357,7 @@ $string['bulkapprove'] = 'Bulk approve';
 $string['approvingcourses'] = 'Approving courses...';
 
 // block_cmanager_config.php
-//$string['managersettings'] = 'Manager settings';
+$string['managersettings'] = 'Manager settings';
 
 
 // Form Page 1 & Page2
@@ -412,12 +413,12 @@ $string['cmanager:addinstance'] = 'Add instance';
 $string['displayListWarningTitle'] = 'WARNING';
 $string['displayListWarningSideText'] = 'This shortname already exists in the Moodle database. Admin attention required. This request is excluded from bulk actions.';
 
-//$string['nocatselected'] = 'Sorry no category has been selected for this course';
+$string['nocatselected'] = 'Sorry no category has been selected for this course';
 $string['noneselected'] = 'None selected';
 
 $string['customdeny'] = 'Denial text templates';
 $string['customdenydesc'] = 'Administrators may deny course requests for a number of reasons. Outlining the reason for a denial in an email can be time consuming. This feature lets you create up to five reasons which can be quickly selected during the denial process. Max 250 chars';
-//$string['customdenyfiller'] = 'You may enter a denial reason here (max 250 chars)';
+$string['customdenyfiller'] = 'You may enter a denial reason here (max 250 chars)';
 $string['denytext1'] = 'Reason 1';
 $string['denytext2'] = 'Reason 2';
 $string['denytext3'] = 'Reason 3';
@@ -445,7 +446,7 @@ $string['cmanager:viewrecord'] = 'View record';
 $string['cmanager:viewconfig'] = 'View config';
 
 $string['ok'] = 'Ok';
-//$string['lib_error_invalid_c'] = 'Invalid course ID!';
+$string['lib_error_invalid_c'] = 'Invalid course ID!';
 
 $string['course_new_mod_create'] = 'New module creation';
 

@@ -68,7 +68,6 @@ class block_cmanager_course_exists_form extends moodleform {
         // Get out record
         $currentRecord =  $DB->get_record('block_cmanager_records', array('id'=>$currentSess));
 
-
         $modCode = $currentRecord->modcode;
         $modTitle = $currentRecord->modname;
         $modMode = $currentRecord->modmode;
@@ -94,10 +93,8 @@ class block_cmanager_course_exists_form extends moodleform {
                 <th>' . get_string('modname','block_cmanager') . '</th>
                 <th>' . get_string('catlocation','block_cmanager'). '</th>
                 <th>' . get_string('lecturingstaff','block_cmanager')  . '</th>
-                <th>' . get_string('actions','block_cmanager') . '</th>
             </tr>
         ');
-
 
         foreach($allRecords as $record){
 
@@ -120,23 +117,20 @@ class block_cmanager_course_exists_form extends moodleform {
                     <td>' . format_string($record->fullname) .'</td>
                     <td>' . format_string($catLocation) . '</td>
                     <td>' . $lecturersHTML . '</td>
-                    <td><a href="requests/request_control.php?id=' . $record->id . '">'.get_string('request_requestControl','block_cmanager') . '</a></td>
                 </tr>
             ');
         }
 
         $mform->addElement('html', '</table>');
 
-        // Button: None of these? Continue.
-        $mform->addElement('html', '<p><a class="btn btn-default" href="course_new.php?status=None">' . get_string('noneofthese','block_cmanager') . '</a></p>');
+        // Button: None of these? start again.
+        $mform->addElement('html', '<p><a class="btn btn-default" href="course_request.php?mode=1">' . get_string('noneofthese','block_cmanager') . '</a></p>');
 
         $mform->closeHeaderBefore('buttonar');
     }
 }
 
-
 $mform = new block_cmanager_course_exists_form();//name of the form you defined in file above.
-
 
   if ($mform->is_cancelled()){
 
@@ -151,7 +145,5 @@ $mform = new block_cmanager_course_exists_form();//name of the form you defined 
 
 
 }
-
-
 
 ?>
