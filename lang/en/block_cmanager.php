@@ -70,7 +70,7 @@ $string['namingConvetion_option5'] = 'Full name (year)';
 $string['snamingConvetion'] = 'Short name format';
 $string['snamingConvetionInstruction'] = 'Please choose a short name format for newly created courses';
 $string['snamingConvetion_option1'] = 'Short name only';
-$string['snamingConvetion_option2'] = 'Short name - mode';
+$string['snamingConvetion_option2'] = 'Short name - mode (semester)';
 $string['configure_EnrolmentKey'] = 'Enrolment key';
 $string['configure_EnrolmentKeyInstruction'] = 'Course Request Manager can generate an automatic enrolment key or you may choose to prompt the user for an enrolment key of their choice. If you choose to prompt the user, a field for entering the enrolment key will be added to the first page of the request form.';
 $string['configure_defaultStartDate'] = 'Start date';
@@ -79,7 +79,7 @@ $string['configure_delete'] = 'Are you sure you want to delete this request?';
 $string['configure_deleteMail'] = 'Are you sure you want to delete this admin e-mail address?';
 $string['configure_leaveblankmail'] = 'Leave this field blank to avoid a mail being sent.';
 $string['configure_instruction1'] = 'Course Request Manager settings allows you to set administrator emails for communication, set default emails, set course naming conventions and default course settings such as start date and enrolment key policy.';
-$string['configure_instruction2'] = 'The request form is split over two pages. Page one will prompt the user for the shortname and long name of the course to be created. This link will allow you to name those fields and also enable an optional course mode setting.';
+$string['configure_instruction2'] = 'The request form is split over two pages. Page one will prompt the user for the shortname and long name of the course to be created. This link will allow you to name those fields and also enable an optional course semester setting.';
 $string['configure_instruction3'] = 'This allows you to configure the 2nd page of the request. On this page you can create form elements that must be completed by the user as part of the request process. While this information is not used by Course Request Manager, it will allow administrators to gather structured information on the request and aid in the decision making process.';
 
 
@@ -127,7 +127,7 @@ $string['request_rule2'] = 'Please select a value.';
 $string['request_rule3'] = 'Please enter an enrolment key.';
 $string['request_requestControl'] = 'Request control of this course';
 $string['request_requestnewBlank'] = 'Request a new blank course and the removal of this course';
-$string['request_pleaseSelect'] = 'Please select course mode.';
+$string['request_pleaseSelect'] = 'Please select course semester.';
 $string['request_complete'] = 'Course request completed.';
 $string['request_addModule'] = 'Add course';
 
@@ -189,8 +189,8 @@ $string['formBuilder_step2'] = 'Step 2: Other details';
 $string['formfieldsHeader'] = 'Configure Request Form - Page 1';
 $string['entryFields_instruction1'] = 'Configure the first page of the course request form. The first page of the request form is used to accept values from the user for the course short name and the course full name as required by Moodle. These may be described differently by your organisation. For example you may use a course code (short name) and a course name (full name) to describe your courses.';
 $string['entryFields_instruction2'] = 'For each of the two fields below, you may change the name of the field as it appears to the user and also the help text that is associated with each field.';
-$string['entryFields_TextfieldOne'] = 'Configure field for course short name';
-$string['entryFields_TextfieldTwo'] = 'Configure field for course full name';
+$string['entryFields_TextfieldOne'] = 'Configure field for course code (short name)';
+$string['entryFields_TextfieldTwo'] = 'Configure field for course name (full name)';
 $string['entryFields_Name'] = 'Name';
 $string['entryFields_Description'] = 'Description';
 $string['entryFields_status'] = 'Status';
@@ -472,8 +472,8 @@ $string['deletecourserequest'] = 'Delete course request';
 
 // GDPR Privacy API
 $string['comments'] = 'Comments';
-$string['privacy:metadata:db:block_cmanager_records:modname'] = 'The requested course full name';
-$string['privacy:metadata:db:block_cmanager_records:modcode'] = 'The requested course short name';
+$string['privacy:metadata:db:block_cmanager_records:modname'] = 'The requested course name (full name)';
+$string['privacy:metadata:db:block_cmanager_records:modcode'] = 'The requested course code (short name)';
 $string['privacy:metadata:db:block_cmanager_records:createdbyid'] = 'The user ID submitting the request';
 $string['privacy:metadata:db:block_cmanager_records:createdate'] = 'Time created';
 $string['privacy:metadata:db:block_cmanager_records'] = 'Stores requests for the course request manager block';

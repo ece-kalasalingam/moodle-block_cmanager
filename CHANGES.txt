@@ -2,6 +2,10 @@
 
 		CRM Changelog
 ----------------------------------------------------------------------
+Date: Aug/2021
+Removed the option to access course if exists
+Removed language packs De, Fr
+Modifed language strings as per local requirements
 
 CRM 5.3
 
